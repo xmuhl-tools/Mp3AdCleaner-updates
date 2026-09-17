@@ -1,20 +1,20 @@
 # Mp3AdCleaner
 
-MP3 批量无损去广告工具：自动识别并无损删除 MP3 中的插入广告（正文不重编码），Windows x64 绿色工具。
+更新发布通道：更新清单 + Windows x64 下载包（Mp3AdCleaner）。
 
-- 当前版本：**1.1.0**（build 12）
-- 最近更新：修复：状态栏提示文字截断；修复：最大化后还原日志框消失；修复：设置对话框标签与复选框重叠；新增对话框布局守卫（文字宽度+控件重叠双维度）；发布渠道迁移到组织仓库 xmuhl-tools/Mp3AdCleaner-updates；提供免注册表安装包
+- 当前版本：**1.1.0**（build 13）
+- 最近更新：新增：无缝拼接广告检测（静音缝+头尾区间规则，覆盖整集重编码、无分隔字节的头尾广告，默认自动处理，可在设置或 config.ini 关闭）；新增：手动标记广告区间（右键菜单，时间区间吸附安全切点，可一键去广告或创建模板）；修复：中文文件名下创建模板名称为空；修复：手动标记对话框说明文字被裁/被遮挡；修复：AutoDeleteOnlyOnSafeBoundary 开关此前无效；UI 文本自适应门禁扩展多行高度与控件重叠维度；接受边界：静音缝启发式对合法长停顿有误报面（源只读、输出独立目录、可关闭）
 
 ## 下载
 
 | 用途 | 文件 |
 |---|---|
-| 首次安装（推荐，双击即装） | [Mp3AdCleaner-1.1.0.12-win-x64-Setup.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0/Mp3AdCleaner-1.1.0.12-win-x64-Setup.exe) |
+| 首次安装（推荐，双击即装） | [Mp3AdCleaner-1.1.0.13-win-x64-Setup.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0/Mp3AdCleaner-1.1.0.13-win-x64-Setup.exe) |
 | 便携版 / 自动更新载荷 | [Mp3AdCleaner-1.1.0-win-x64.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0/Mp3AdCleaner-1.1.0-win-x64.exe) |
 
 ## 安装与使用
 
-- **安装包**：双击运行 → 确认/修改安装位置（默认 `%USERPROFILE%/Mp3AdCleaner`）→ 自动创建桌面快捷方式。
+- **安装包**：双击运行 → 确认/修改安装位置（默认 `%USERPROFILE%\Mp3AdCleaner`）→ 自动创建桌面快捷方式。
   程序与数据（配置、模板、日志、输出）都放在安装目录内；卸载 = 删除安装目录与快捷方式，不写注册表。
 - **便携版**：把 exe 放进任意可写目录直接运行；配置与数据保存在程序目录的子目录内。
 
@@ -22,9 +22,9 @@ MP3 批量无损去广告工具：自动识别并无损删除 MP3 中的插入�
 
 ```text
 Mp3AdCleaner-1.1.0-win-x64.exe
-  397e4408fb95d8ac7a127b3af21c1ed75af91a806e1d52d2c325fc90772ea4b6
-Mp3AdCleaner-1.1.0.12-win-x64-Setup.exe
-  abe6b9b6162418125a9ed006919bee9d781b7f40ac8851ff9d19e23d13ed946e
+  e25d5024d3b778c5a13dd0e6bff02afc7f67651abbdf5b2e821950ac3ee86d9a
+Mp3AdCleaner-1.1.0.13-win-x64-Setup.exe
+  ab7d890fdb7d23da6fb509be2fa647c32265ba839fe71015669d384dad4d71a7
 ```
 
 ## 自动更新
