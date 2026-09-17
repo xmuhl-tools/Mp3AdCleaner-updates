@@ -2,15 +2,15 @@
 
 更新发布通道：更新清单 + Windows x64 下载包（Mp3AdCleaner）。
 
-- 当前版本：**1.1.0**（build 13）
-- 最近更新：新增：无缝拼接广告检测（静音缝+头尾区间规则，覆盖整集重编码、无分隔字节的头尾广告，默认自动处理，可在设置或 config.ini 关闭）；新增：手动标记广告区间（右键菜单，时间区间吸附安全切点，可一键去广告或创建模板）；修复：中文文件名下创建模板名称为空；修复：手动标记对话框说明文字被裁/被遮挡；修复：AutoDeleteOnlyOnSafeBoundary 开关此前无效；UI 文本自适应门禁扩展多行高度与控件重叠维度；接受边界：静音缝启发式对合法长停顿有误报面（源只读、输出独立目录、可关闭）
+- 当前版本：**1.1.0.14**（build 14）
+- 最近更新：新增：无缝拼接广告检测扩展（短缝+电平差双向判据+逐段向后扩展），修复《解读希特勒》系列尾部安静广告漏检；修复：短缝候选在无长缝文件上不生效、内部停顿截断、日志电平符号；更新方案升级：RSA-2048 清单签名+客户端 fail-closed 验签；安装包改用 Inno Setup（带卸载入口，沿旧默认目录原地升级）；已知边界：静音缝启发式对安静收尾误报由 20s 下限防护
 
 ## 下载
 
 | 用途 | 文件 |
 |---|---|
-| 首次安装（推荐，双击即装） | [Mp3AdCleaner-1.1.0.13-win-x64-Setup.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0/Mp3AdCleaner-1.1.0.13-win-x64-Setup.exe) |
-| 便携版 / 自动更新载荷 | [Mp3AdCleaner-1.1.0-win-x64.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0/Mp3AdCleaner-1.1.0-win-x64.exe) |
+| 首次安装（推荐，双击即装） | [Mp3AdCleaner-1.1.0.14-win-x64-Setup.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.14/Mp3AdCleaner-1.1.0.14-win-x64-Setup.exe) |
+| 便携版 / 自动更新载荷 | [Mp3AdCleaner-1.1.0.14-win-x64.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.14/Mp3AdCleaner-1.1.0.14-win-x64.exe) |
 
 ## 安装与使用
 
@@ -21,10 +21,10 @@
 ## 校验（sha256）
 
 ```text
-Mp3AdCleaner-1.1.0-win-x64.exe
-  e25d5024d3b778c5a13dd0e6bff02afc7f67651abbdf5b2e821950ac3ee86d9a
-Mp3AdCleaner-1.1.0.13-win-x64-Setup.exe
-  ab7d890fdb7d23da6fb509be2fa647c32265ba839fe71015669d384dad4d71a7
+Mp3AdCleaner-1.1.0.14-win-x64.exe
+  185f90d6ccf626bfe0165cd3365a6eb4767b0ad4869e27e24082ca8caf0b5638
+Mp3AdCleaner-1.1.0.14-win-x64-Setup.exe
+  59baf4fbf75e0a0a01e2750d0d9fd7f5ae9fd3dc9644493636327bf272f64345
 ```
 
 ## 自动更新
@@ -33,4 +33,4 @@ Mp3AdCleaner-1.1.0.13-win-x64-Setup.exe
 按 build 号比较；发现新版本时提示下载，校验 sha256 后自动替换并重启。手动检查入口在程序主界面。
 
 ---
-本文件由发布流程自动生成/更新（portable-app-release 技能，2026-09-17），请勿手工改动。
+本文件由发布流程自动生成/更新（portable-app-release 技能，2026-09-18），请勿手工改动。
