@@ -1,8 +1,8 @@
 {
   "product": "Mp3AdCleaner",
-  "build": 999,
+  "build": 12,
   "version": "1.1.0",
-  "notes": "temporary channel probe",
+  "notes": "修复：状态栏提示文字截断；修复：最大化后还原日志框消失；修复：设置对话框标签与复选框重叠；新增对话框布局守卫（文字宽度+控件重叠双维度）；发布渠道迁移到组织仓库 xmuhl-tools/Mp3AdCleaner-updates；提供免注册表安装包",
   "asset": "Mp3AdCleaner-1.1.0-win-x64.exe",
   "sha256": "397e4408fb95d8ac7a127b3af21c1ed75af91a806e1d52d2c325fc90772ea4b6",
   "mirrors": [
