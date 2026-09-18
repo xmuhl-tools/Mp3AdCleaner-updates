@@ -2,15 +2,15 @@
 
 更新发布通道：更新清单 + Windows x64 下载包（Mp3AdCleaner）。
 
-- 当前版本：**1.1.0.14**（build 14）
-- 最近更新：新增：无缝拼接广告检测扩展（短缝+电平差双向判据+逐段向后扩展），修复《解读希特勒》系列尾部安静广告漏检；修复：短缝候选在无长缝文件上不生效、内部停顿截断、日志电平符号；更新方案升级：RSA-2048 清单签名+客户端 fail-closed 验签；安装包改用 Inno Setup（带卸载入口，沿旧默认目录原地升级）；已知边界：静音缝启发式对安静收尾误报由 20s 下限防护
+- 当前版本：**1.1.0.15**（build 15）
+- 最近更新：修复：界面与属性页版本号显示为完整版本（v1.1.0.15，含构建号）；沿袭 build 14 全部修复（短缝尾部检测双向判据、签名验签、Inno 安装包）
 
 ## 下载
 
 | 用途 | 文件 |
 |---|---|
-| 首次安装（推荐，双击即装） | [Mp3AdCleaner-1.1.0.14-win-x64-Setup.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.14/Mp3AdCleaner-1.1.0.14-win-x64-Setup.exe) |
-| 便携版 / 自动更新载荷 | [Mp3AdCleaner-1.1.0.14-win-x64.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.14/Mp3AdCleaner-1.1.0.14-win-x64.exe) |
+| 首次安装（推荐，双击即装） | [Mp3AdCleaner-1.1.0.15-win-x64-Setup.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.15/Mp3AdCleaner-1.1.0.15-win-x64-Setup.exe) |
+| 便携版 / 自动更新载荷 | [Mp3AdCleaner-1.1.0.15-win-x64.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.15/Mp3AdCleaner-1.1.0.15-win-x64.exe) |
 
 ## 安装与使用
 
@@ -21,10 +21,10 @@
 ## 校验（sha256）
 
 ```text
-Mp3AdCleaner-1.1.0.14-win-x64.exe
-  185f90d6ccf626bfe0165cd3365a6eb4767b0ad4869e27e24082ca8caf0b5638
-Mp3AdCleaner-1.1.0.14-win-x64-Setup.exe
-  59baf4fbf75e0a0a01e2750d0d9fd7f5ae9fd3dc9644493636327bf272f64345
+Mp3AdCleaner-1.1.0.15-win-x64.exe
+  0fe90049184909c281a939a4376797e1debfa4a0fb85d4f479192691f0a89912
+Mp3AdCleaner-1.1.0.15-win-x64-Setup.exe
+  a977901a3c57559cc0560376a341bf9bae7c3de18fc953d0ba458a7f396a6979
 ```
 
 ## 自动更新

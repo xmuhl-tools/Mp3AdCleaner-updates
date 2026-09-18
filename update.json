@@ -1,13 +1,13 @@
 {
   "product": "Mp3AdCleaner",
-  "build": 14,
-  "version": "1.1.0.14",
-  "notes": "新增：无缝拼接广告检测扩展（短缝+电平差双向判据+逐段向后扩展），修复《解读希特勒》系列尾部安静广告漏检；修复：短缝候选在无长缝文件上不生效、内部停顿截断、日志电平符号；更新方案升级：RSA-2048 清单签名+客户端 fail-closed 验签；安装包改用 Inno Setup（带卸载入口，沿旧默认目录原地升级）；已知边界：静音缝启发式对安静收尾误报由 20s 下限防护",
-  "asset": "Mp3AdCleaner-1.1.0.14-win-x64.exe",
-  "sha256": "185f90d6ccf626bfe0165cd3365a6eb4767b0ad4869e27e24082ca8caf0b5638",
+  "build": 15,
+  "version": "1.1.0.15",
+  "notes": "修复：界面与属性页版本号显示为完整版本（v1.1.0.15，含构建号）；沿袭 build 14 全部修复（短缝尾部检测双向判据、签名验签、Inno 安装包）",
+  "asset": "Mp3AdCleaner-1.1.0.15-win-x64.exe",
+  "sha256": "0fe90049184909c281a939a4376797e1debfa4a0fb85d4f479192691f0a89912",
   "mirrors": [
-    "https://ghfast.top/https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.14/Mp3AdCleaner-1.1.0.14-win-x64.exe",
-    "https://mirror.ghproxy.com/https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.14/Mp3AdCleaner-1.1.0.14-win-x64.exe"
+    "https://ghfast.top/https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.15/Mp3AdCleaner-1.1.0.15-win-x64.exe",
+    "https://mirror.ghproxy.com/https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.15/Mp3AdCleaner-1.1.0.15-win-x64.exe"
   ],
   "size": 3303424
 }
