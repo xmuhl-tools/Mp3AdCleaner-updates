@@ -1,13 +1,13 @@
 {
   "product": "Mp3AdCleaner",
-  "build": 16,
-  "version": "1.1.0.16",
-  "notes": "修复自动更新:当更新源缓存滞后时,老版本现在直接升级到最新版,不再逐级多次更新。",
-  "asset": "Mp3AdCleaner-1.1.0.16-win-x64.exe",
-  "sha256": "41048f06a0c36954bf84c64a7232da839d1553f97eacff421e9e1af2f2abee49",
+  "build": 17,
+  "version": "1.1.0.17",
+  "notes": "主界面日志降噪：不再显示自动更新通道的技术细节（源地址、密钥指纹），相关明细仍记录在本地日志文件中",
+  "asset": "Mp3AdCleaner-1.1.0.17-win-x64.exe",
+  "sha256": "66bbb88d690bd725af521ce4ea9cc0923d073e0d6e877897df03c9838ce10b67",
   "mirrors": [
-    "https://ghfast.top/https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.16/Mp3AdCleaner-1.1.0.16-win-x64.exe",
-    "https://mirror.ghproxy.com/https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.16/Mp3AdCleaner-1.1.0.16-win-x64.exe"
+    "https://ghfast.top/https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.17/Mp3AdCleaner-1.1.0.17-win-x64.exe",
+    "https://mirror.ghproxy.com/https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.17/Mp3AdCleaner-1.1.0.17-win-x64.exe"
   ],
   "size": 3302912
 }

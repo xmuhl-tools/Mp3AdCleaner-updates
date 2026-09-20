@@ -2,15 +2,15 @@
 
 更新发布通道：更新清单 + Windows x64 下载包（Mp3AdCleaner）。
 
-- 当前版本：**1.1.0.16**（build 16）
-- 最近更新：修复自动更新:当更新源缓存滞后时,老版本现在直接升级到最新版,不再逐级多次更新。
+- 当前版本：**1.1.0.17**（build 17）
+- 最近更新：主界面日志降噪：不再显示自动更新通道的技术细节（源地址、密钥指纹），相关明细仍记录在本地日志文件中
 
 ## 下载
 
 | 用途 | 文件 |
 |---|---|
-| 首次安装（推荐，双击即装） | [Mp3AdCleaner-1.1.0.16-win-x64-Setup.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.16/Mp3AdCleaner-1.1.0.16-win-x64-Setup.exe) |
-| 便携版 / 自动更新载荷 | [Mp3AdCleaner-1.1.0.16-win-x64.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.16/Mp3AdCleaner-1.1.0.16-win-x64.exe) |
+| 首次安装（推荐，双击即装） | [Mp3AdCleaner-1.1.0.17-win-x64-Setup.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.17/Mp3AdCleaner-1.1.0.17-win-x64-Setup.exe) |
+| 便携版 / 自动更新载荷 | [Mp3AdCleaner-1.1.0.17-win-x64.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.17/Mp3AdCleaner-1.1.0.17-win-x64.exe) |
 
 ## 安装与使用
 
@@ -21,10 +21,10 @@
 ## 校验（sha256）
 
 ```text
-Mp3AdCleaner-1.1.0.16-win-x64.exe
-  41048f06a0c36954bf84c64a7232da839d1553f97eacff421e9e1af2f2abee49
-Mp3AdCleaner-1.1.0.16-win-x64-Setup.exe
-  6069f7b5f32e998341f89740f7bf16f128bb71d91a1a974fe8f8034f80bc17b0
+Mp3AdCleaner-1.1.0.17-win-x64.exe
+  66bbb88d690bd725af521ce4ea9cc0923d073e0d6e877897df03c9838ce10b67
+Mp3AdCleaner-1.1.0.17-win-x64-Setup.exe
+  890f604975218cca9e460fd17d462241bed363ee914bbcab6573f1da9c66fea6
 ```
 
 ## 自动更新
