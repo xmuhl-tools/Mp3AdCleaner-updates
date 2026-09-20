@@ -9,13 +9,22 @@
 
 | 用途 | 文件 |
 |---|---|
+| 首次安装（推荐，双击即装） | [Mp3AdCleaner-1.1.0.16-win-x64-Setup.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.16/Mp3AdCleaner-1.1.0.16-win-x64-Setup.exe) |
 | 便携版 / 自动更新载荷 | [Mp3AdCleaner-1.1.0.16-win-x64.exe](https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.16/Mp3AdCleaner-1.1.0.16-win-x64.exe) |
+
+## 安装与使用
+
+- **安装包**：双击运行 → 确认/修改安装位置（默认 `%USERPROFILE%\Mp3AdCleaner`）→ 自动创建桌面快捷方式。
+  程序与数据（配置、模板、日志、输出）都放在安装目录内；卸载 = 删除安装目录与快捷方式，不写注册表。
+- **便携版**：把 exe 放进任意可写目录直接运行；配置与数据保存在程序目录的子目录内。
 
 ## 校验（sha256）
 
 ```text
 Mp3AdCleaner-1.1.0.16-win-x64.exe
   41048f06a0c36954bf84c64a7232da839d1553f97eacff421e9e1af2f2abee49
+Mp3AdCleaner-1.1.0.16-win-x64-Setup.exe
+  6069f7b5f32e998341f89740f7bf16f128bb71d91a1a974fe8f8034f80bc17b0
 ```
 
 ## 自动更新
