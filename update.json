@@ -1,13 +1,13 @@
 {
   "product": "Mp3AdCleaner",
-  "build": 20,
-  "version": "1.1.0.20",
-  "notes": "新增中部广告检测：整集重编码文件中部的无缝拼接广告（如《解读希特勒》系列 3 分 13 秒残留广告）现可自动识别为候选；默认转人工复核确认后完整无损切除，确认无误后可在 Config 配置开启自动处理",
-  "asset": "Mp3AdCleaner-1.1.0.20-win-x64.exe",
-  "sha256": "8843873274296be212d2c39ce4e63379611de6951c44c48c7e0023710abd9896",
+  "build": 21,
+  "version": "1.1.0.21",
+  "notes": "中部广告检测默认自动处理：正常跑完即自动删除文件中部的无缝拼接广告（如《解读希特勒》系列 3 分多位置的残留广告），无需逐文件人工确认；误报防护靠形态门控与时长窗，可在 Config 配置改回人工复核模式",
+  "asset": "Mp3AdCleaner-1.1.0.21-win-x64.exe",
+  "sha256": "172dec5112bdc8a130e89807a000b402701a718d859c1f04e96ca8f2c83fe6fd",
   "mirrors": [
-    "https://ghfast.top/https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.20/Mp3AdCleaner-1.1.0.20-win-x64.exe",
-    "https://mirror.ghproxy.com/https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.20/Mp3AdCleaner-1.1.0.20-win-x64.exe"
+    "https://ghfast.top/https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.21/Mp3AdCleaner-1.1.0.21-win-x64.exe",
+    "https://mirror.ghproxy.com/https://github.com/xmuhl-tools/Mp3AdCleaner-updates/releases/download/v1.1.0.21/Mp3AdCleaner-1.1.0.21-win-x64.exe"
   ],
   "size": 3322368
 }
